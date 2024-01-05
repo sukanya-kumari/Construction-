@@ -1,0 +1,180 @@
+/*font*/
+
+@font-face {
+    font-family: Coda-ExtraBold;
+    src: url(../fonts/Coda-ExtraBold.ttf);
+}
+*{
+    font-family: 'Caveat', cursive;
+font-family: 'Geologica', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Coda-ExtraBold;
+}
+/* body */
+body{
+    margin:0;
+}
+.uni-padding{
+    padding: 0 7%;
+    
+}
+/*top bar*/
+#topbar{
+    background-color: #576574;
+    padding-top:12px;
+    padding-bottom: 12px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#tolfree{
+    color: #fdfdfd;
+    margin:0;
+}
+.fa-brands {
+    background-color:#fdfdfd;
+    color:#576574;
+    padding:7px;
+    border-radius: 50%;
+
+}
+.fa-facebook{
+    padding:7px 9px;
+}
+.fa-linkedin-in{
+    padding:7px 10px;
+}
+.fa-whatsapp{
+    padding:7px 9px;
+}
+.fa-instagram{
+    padding:7px 10px;
+}
+
+
+/* LOGO */
+#logo-bar{
+    background-color: #ddd;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#logo-bar img{
+    width:80px;
+    margin:20px 0px;
+}
+
+#nav-bar-list{
+    list-style-type: none;
+    display: flex;
+   gap:2rem;
+   align-items: center;
+
+}
+#nav-bar-list ul{
+    margin:0;
+    padding:0;
+}
+ ul li a{
+    text-decoration: none;
+    
+    font-size: 18px;
+    color:black;
+}
+
+/* footer */
+#imp-link{
+    background-color: #576574;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+.div33{
+    width:33.33%;
+    padding:25px 0px;
+    box-sizing: border-box;
+
+}
+
+#about img{
+    width:80px;
+}
+
+
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding:0px;
+}
+#footer-menu  li{
+    padding-bottom: 10px;
+
+}
+#footer-menu  li a{
+    text-decoration: none;
+    color:azure;
+}
+/* #contact-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    gap:2rem;
+} */
+#contact-menu-bar{
+    display:flex;
+    
+}
+#contact-menu-bar ul li{
+    list-style-type: none;
+   margin-bottom: 20px;
+   
+}
+
+.fa-solid{
+   color: aquamarine;
+  
+}
+
+#copyright{
+    background-color: #222f3e;
+    text-align:center;
+    color:#cbcbcb;
+    padding:10px;
+   
+}
+#copyright a{
+    text-decoration: none;
+    color:purple;
+    transition: all 2s linear;
+}
+
+
+
+#copyright a:hover{
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
