@@ -46,7 +46,7 @@
             <!-- navbar -->
             
                 <ul id="nav-bar-list" class="uni-padding">
-                    <li><a href="">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Our Projects</a></li>
@@ -56,6 +56,36 @@
                 </ul>
             </div>
         </header>
+       <!-- navbar end -->
+       <!-- body part start -->
+       <!-- contact us -->
+       <div class="contact-img">
+        <img src="./images/contacts.jpg" alt="contact logo">
+       </div>
+
+       <div class="contactContainer uni-padding">                      
+        <!-- in action i used web form to create api -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="contact-form">
+            <h2  id="contact-heading">Get in touch</h2>
+            <hr>
+            </div>
+            <input type="hidden" name="access_key" value="c895cdde-d09b-4164-a708-b41b88433361">
+            <div class="input-form">
+            <input type="text" name="name" id="name" placeholder="Enter your name" class="contact-inputs" required>
+            <input type="email" name="name" id="name" placeholder="Enter your Email" class="contact-inputs" required>
+            <textarea name="measage" placeholder="your message"class="contact-inputs" required></textarea>
+            <button type="submit" class="contact-submit">Submit </button>
+           </div>
+        </form>
+    </div>
+
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.182964726014!2d85.32209477352156!3d23.38159740283843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1179b1b1e55%3A0xc0daf7513ad47c56!2sRadium%20Rd%2C%20Ranchi%2C%20Jharkhand%20834001!5e0!3m2!1sen!2sin!4v1704571528213!5m2!1sen!2sin" width="1221" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+       <!-- contact us end -->
 
 
 
@@ -123,3 +153,4 @@
    <script src="./js/script.js"></script> 
 </body>
 </html>
+
