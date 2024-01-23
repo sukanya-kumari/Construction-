@@ -41,3 +41,12 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 4000); // Change image every 2 seconds
   }
+
+  
+  function openMenu()
+  {
+    document.getElementById("logo-bar").style.left = "0px";
+  }
+  function closeMenu(){
+    document.getElementById("logo-bar").style.left = "-280px";
+  }
