@@ -350,7 +350,7 @@ text-align: right;
 
 }
 
-@media(max-width:500px)
+@media(max-width:600px)
 {
     .index-text{
         width:100vh;
@@ -428,7 +428,7 @@ text-align: right;
 
 /* career page start */
 .carrer-page{
-    height:500px;
+    height:100vh;
    
 }
 
@@ -594,7 +594,7 @@ p{
 .about-page{
    
     background-color:#ddd;
-    height: 600px;
+    height: 100%;
    background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -627,6 +627,13 @@ p{
         height:fit-content;
     }
     
+}
+/* for phone */
+@media(max-width:500px)
+{
+    .about-page{
+        height:1000px;
+    }
 }
 
 /* about page end */
