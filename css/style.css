@@ -814,7 +814,17 @@ p{
     color:green;
 }
 
+/* for phone */
+@media(max-width:500px)
+{
+    #imp-link{
+        display:flex;
+        flex-direction: column;
+        justify-content:left;
+       
 
+    }
+}
 
 
 
